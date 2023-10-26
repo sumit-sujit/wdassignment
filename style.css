@@ -1,0 +1,16 @@
+.logo-container {
+    position: relative;
+    width: 100px; /* Adjust the dimensions as needed */
+    height: 100px;
+    overflow: hidden;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.logo-container:hover .logo {
+    transform: scale(1.1); /* Adjust the scale factor as needed for the desired pop-up effect */
+}
